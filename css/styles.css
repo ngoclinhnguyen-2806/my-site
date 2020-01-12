@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  /*color: #af460f;*/
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  /*line-height: 2;*/
+  padding-top: 100px;
+  font-size: 5.625rem;
+  font-family: 'Dancing Script', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h3 {
+  color: #11999E;
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 4%;
+}
+
+/************************CLASS SELECTOR***************************/
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 50px;
+}
+
+.middle-container {
+  background-color: #FFFFFF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skills {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.profile {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 3;
+}
+
+.contact-message {
+  width: 37%;
+  margin: 40px auto 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 200px;
+}
+
+.top-cloud {
+  padding-top: 50px;
+  position: absolute;
+  right: 350px;
+}
+
+.profile-picture {
+  width: 200px;
+}
+
+.picture1 {
+  width: 20%;
+  float: left;
+  /*For text-wrapping around an image*/
+  margin-right: 30px;
+}
+
+.picture2 {
+  width: 20%;
+  float: right;
+  /*To make the text go to the right of the picture*/
+  margin-left: 30px;
+}
+
+.credit {
+  font-size: 0;
+}
+
+.my-credit {
+  color: #EAF6F6;
+  font-size: 0.9rem;
+}
+
+.footer-link {
+  padding: 30px;
+  color: #11999E;
+  text-decoration: none;
+}
+
+.btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #b4ebed;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #b4ebed;
+	box-shadow:inset 0px 1px 0px 0px #b4ebed;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #66bfbf), color-stop(1, #11999e) );
+	background:-moz-linear-gradient( center top, #66bfbf 5%, #11999e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#66bfbf', endColorstr='#11999e');
+	background-color:#66bfbf;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #ffffff;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	width:131px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #11999e;
+}
+.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #11999e), color-stop(1, #66bfbf) );
+	background:-moz-linear-gradient( center top, #11999e 5%, #66bfbf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#11999e', endColorstr='#66bfbf');
+	background-color:#11999e;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
