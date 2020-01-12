@@ -117,13 +117,22 @@ hr {
 
 .my-credit {
   color: #EAF6F6;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
+  padding: 20px;
 }
 
-.footer-link {
-  padding: 30px;
+a{ /*This is the text in the footer link*/
+  margin: 10px 20px;
   color: #11999E;
   text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.footer-link: hover {
+  color: #FFFFFF;
 }
 
 .btn {
@@ -166,7 +175,8 @@ hr {
 	background:-moz-linear-gradient( center top, #11999e 5%, #66bfbf 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#11999e', endColorstr='#66bfbf');
 	background-color:#11999e;
-}.btn:active {
+}
+.btn:active {
 	position:relative;
 	top:1px;
 }
